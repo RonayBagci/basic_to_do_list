@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/todos")
-public class TodoController {
+public class    TodoController {
 
     @Autowired
     private TodoService todoService;
@@ -28,10 +28,6 @@ public class TodoController {
         Optional<Todo> todos = Optional.ofNullable(todoService.getTodoById(id));
         return todos.map(ResponseEntity::ok).orElseGet(() ->ResponseEntity.notFound().build());
     }
-    /*public ResponseEntity<Product> getProductById(@PathVariable Long id){
-        Optional<Product> product = productService.getById(id);
-        return product.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
-    }*/
 
     @PostMapping("/saveTodo")
     public ResponseEntity<Todo> createTodo(@RequestBody Todo todo) {
