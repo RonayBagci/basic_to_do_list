@@ -25,11 +25,21 @@
 ``` git
     git clone https://github.com/RonayBagci/basic_to_do_list.git
 ```
-2. With maven run these commands:
+
+2. Open the folder and navigate backend/demo path. 
+
+3. With maven run these commands:
 ```git
-mvn clean install
-mvn spring-boot:run
+$mvn clean install
+$mvn spring-boot:run
 ```
+4. Spring Boot app is going to running on the http://localhost:8080/ 
+
+## For Swagger API Documantation
+
+Swagger documantation will be show up on http://localhost:8080/swagger-ui.html#/
+
+
 
 
 
