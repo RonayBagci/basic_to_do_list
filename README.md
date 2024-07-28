@@ -37,7 +37,7 @@ $mvn spring-boot:run
 
 ## For Swagger API Documantation
 
-Swagger documantation will be show up on (http://localhost:8080/swagger-ui.html#/  target="_blank")
+Swagger documantation will be show up on (http://localhost:8080/swagger-ui.html#/)  {target="_blank"}
 
 
 
