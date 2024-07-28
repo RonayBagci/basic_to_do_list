@@ -40,7 +40,7 @@ $mvn spring-boot:run
 ```
 If you want to stop the application click **CTRL+C** in terminal.
 
-4. Spring Boot app is going to running on the http://localhost:8080/ 
+4. Spring Boot app is going to run on the http://localhost:8080/ 
 
 ## For Swagger API Documantation
 
