@@ -1,9 +1,10 @@
 # Basic TO DO LIST with CRUD operations
 
-- []C => Create (Post Method)
-- []R => Read (Get Method)
-- []U => Update (Put Method)
-- []D => Delete (Delete Method)
+CRUD stands for :
+- C => Create (Post Method)
+- R => Read (Get Method)
+- U => Update (Put Method)
+- D => Delete (Delete Method)
 
 ## Techs that I used :
 
