@@ -46,7 +46,7 @@ public class TodoController {
         return null;
     }
     @PostMapping("/saveMultipleTodos")
-    public ResponseEntity<List<Todo>> createMultipleTodos(@RequestBody List<Todo> todos) {
+    public ResponseEntity<List<Todo>> saveMultipleTodos(@RequestBody List<Todo> todos) {
         List<Todo> savedTodos = new ArrayList<>();
         for (Todo todo : todos) {
             Todo newTodo = todoService.saveOrUpdateTodo(todo);
