@@ -41,7 +41,7 @@ Swagger API documentation will show at here
 <a href="http://localhost:8080/swagger-ui.html#/" target="_blank">http://localhost:8080/swagger-ui.html#/</a>
 
 ### Swager Screenshoots:
-![image 1](images/1.png)
+![image 1](backend/demo/images/1.png)
 
 
 
