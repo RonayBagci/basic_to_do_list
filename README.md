@@ -21,9 +21,14 @@
 ---    
 
 ## Usage
-[1] Copy link below
+1. Copy link below
 ``` git
     git clone https://github.com/RonayBagci/basic_to_do_list.git
+```
+2. With maven run these commands:
+```git
+mvn clean install
+mvn spring-boot:run
 ```
 
 
