@@ -33,6 +33,8 @@
 $mvn clean install
 $mvn spring-boot:run
 ```
+If you stop the application click **CTRL+C** in terminal.
+
 4. Spring Boot app is going to running on the http://localhost:8080/ 
 
 ## For Swagger API Documantation
@@ -40,7 +42,7 @@ $mvn spring-boot:run
 Swagger API documentation will show at here 
 <a href="http://localhost:8080/swagger-ui.html#/" target="_blank">http://localhost:8080/swagger-ui.html#/</a>
 
-### Swager Screenshoots:
+### Swager Screenshoot:
 ![image 1](backend/demo/images/1.png)
 
 
