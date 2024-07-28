@@ -1,5 +1,9 @@
 # Basic TO DO LIST with CRUD operations
 
+- []C => Create (Post Method)
+- []R => Read (Get Method)
+- []U => Update (Put Method)
+- []D => Delete (Delete Method)
 
 ## Techs that I used :
 
@@ -33,7 +37,7 @@
 $mvn clean install
 $mvn spring-boot:run
 ```
-If you stop the application click **CTRL+C** in terminal.
+If you want to stop the application click **CTRL+C** in terminal.
 
 4. Spring Boot app is going to running on the http://localhost:8080/ 
 
