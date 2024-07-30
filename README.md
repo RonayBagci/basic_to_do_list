@@ -51,6 +51,27 @@ Swagger API documentation will show at here
 ![image 1](backend/demo/images/1.png)
 
 
+## Docker Usage
+If you want to use docker you should follow the steps at bellow
+
+1. Pull docker image 
+``` git
+docker pull ronay44/todoapp
+```
+2. Build Docker image
+```git
+docker build -t todoapp:latest .
+```
+3. Run docker with
+``` git
+docker run --name todoapp -d -p 8080:8080 todoapp:latest
+```
+
+
+
+
+
+
 
 
 
