@@ -9,5 +9,5 @@ RUN ./mvnw package
 
 FROM openjdk:11
 WORKDIR todoapp
-COPY --from=build target/*.jar todoapp.jar
-ENTRYPOINT ["java", "-jar", "todoapp.jar"]
+COPY --from=build target/*.jar demo-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
